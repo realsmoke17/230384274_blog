@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href=".css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+        body {
+          background-color: #f8f9fa;
+        }
+        .hero {
+          background-color: #e44d26;
+          color: white;
+          text-align: center;
+          padding: 50px 0;
+        }
+        .advantages-list {
+          list-style: none;
+          padding-left: 0;
+        }
+        .advantages-list li {
+          background-color: #e2e3e5;
+          margin-bottom: 10px;
+          padding: 10px;
+          border-radius: 5px;
+        }
+        .footer {
+          background-color: #343a40;
+          color: white;
+          text-align: center;
+          padding: 20px;
+          position: relative;
+          bottom: 0;
+          width: 100%;
+        }
+        .content-image {
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+          margin-top: 20px;
+        }
+        .css-section {
+          background-color: #42095C;
+          color: black;
+          padding: 30px;
+          text-align: center;
+          border-radius: 5px;
+          margin-top: 30px;
+        }
+      </style>
+    </head>
+    <body>
+
+      <!-- Hero Section -->
+      <div class="hero">
+        <h1>What are HTML & CSS?</h1>
+        <p>HTML is the structure of the web, and CSS is the design that brings it to life!</p>
+      </div>
+
+      <!-- Main Content: About HTML & CSS -->
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Main content -->
+          <div class="col-md-8">
+            <h2>Introduction to HTML</h2>
+            <p>HTML (HyperText Markup Language) is the standard language used to create web pages. It defines the structure of a webpage using elements like headings, paragraphs, links, and images. HTML is the backbone of all websites, providing the basic building blocks for displaying content.</p>
+
+            <h2>Advantages of HTML</h2>
+            <ul class="advantages-list">
+              <li><strong>Easy to Learn:</strong> HTML is a beginner-friendly language that is easy to understand and use.</li>
+              <li><strong>Widely Supported:</strong> HTML works on all browsers and devices, ensuring compatibility and accessibility.</li>
+              <li><strong>Flexible:</strong> HTML can be used in combination with other technologies like CSS and JavaScript to create dynamic, interactive websites.</li>
+            </ul>
+
+            <div class="css-section">
+              <h2>Introduction to CSS</h2>
+              <p>CSS (Cascading Style Sheets) is a stylesheet language used to style and design web pages. It controls the layout, colors, fonts, and overall visual appearance of a website. With CSS, you can transform basic HTML into a beautiful, responsive design that works on any device.</p>
+
+              <h2>Advantages of CSS</h2>
+              <ul class="advantages-list">
+                <li><strong>Separation of Content and Design:</strong> CSS allows you to keep your HTML structure clean by separating design elements, making it easier to manage and maintain.</li>
+                <li><strong>Responsive Design:</strong> CSS allows for the creation of responsive layouts that adapt to different screen sizes and devices, ensuring a good user experience on mobile, tablet, and desktop.</li>
+                <li><strong>Reusability:</strong> CSS styles can be reused across multiple web pages, reducing duplication and ensuring design consistency.</li>
+              </ul>
+            </div>
+
+            <h2>What Can You Do with HTML & CSS?</h2>
+            <p>HTML and CSS form the foundation of web development. Here are some of the things you can do with them:</p>
+            <ul>
+              <li><strong>Create Web Pages:</strong> Use HTML to define content like headings, paragraphs, images, and links, and use CSS to style them beautifully.</li>
+              <li><strong>Responsive Web Design:</strong> Build websites that look great on any device, from phones to desktops, with flexible layouts using CSS.</li>
+              <li><strong>Style Elements:</strong> CSS allows you to customize the look and feel of your website by changing colors, fonts, spacing, and more.</li>
+              <li><strong>Web Applications:</strong> Combine HTML and CSS with JavaScript to create interactive, dynamic web applications.</li>
+            </ul>
+          </div>
+
+          <!-- Image section -->
+          <div class="col-md-4">
+            <img src="./images/html&CSS.webp" class="content-image" alt="HTML & CSS Image">
+            <img src="./images/css.png" class="content-image" alt="HTML & CSS Image">
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer mt-5">
+        <p>&copy; 2024 HTML & CSS Blog | <a href="#" class="text-white">Privacy Policy</a></p>
+      </footer>
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

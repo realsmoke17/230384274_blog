@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href=".css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+      .hero {
+        background-color: #f8f9fa;
+        text-align: center;
+        padding: 50px 0;
+      }
+
+      .language-card {
+        cursor: pointer;
+        transition: transform 0.2s;
+      }
+
+      .language-card:hover {
+        transform: scale(1.05);
+      }
+
+      .footer {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+    <body>
+
+        <div class="hero">
+          <h1>Welcome to Coding Languages School</h1>
+          <p>A simple blog to help learn and explore popular programming languages.</p>
+        </div>
+
+        <!-- Main Content: Language Cards -->
+        <div class="container mt-5">
+          <div class="row">
+            <!-- Python Card -->
+            <div class="col-md-3">
+              <div class="card language-card" onclick="showDetails('Python')">
+                <img onClick="location.href='./pages/pythonPage.html'" img src="./images/python.jpg" class="card-img-top" alt="Python">
+                <div class="card-body">
+                  <h5 class="card-title">Python</h5>
+                  <p class="card-text">A beginner-friendly language for web, data, and automation.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- JavaScript Card -->
+
+            <div class="col-md-3">
+              <div class="card language-card" onclick="showDetails('JavaScript')">
+                <img onClick="location.href='./pages/JavaScriptPage.html'" img  src="./images/javascript.PNG" class="card-img-top" alt="JavaScript">
+                <div class="card-body">
+                  <h5 class="card-title">JavaScript</h5>
+                  <p class="card-text">The language of the web for dynamic and interactive content.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- C++ Card -->
+            <div class="col-md-3">
+              <div class="card language-card" onclick="showDetails('C++')">
+                <img onClick="location.href='./pages/cplusplusPage.html'" img src="./images/c++.webp" class="card-img-top" alt="C++">
+                <div class="card-body">
+                  <h5 class="card-title">C++</h5>
+                  <p class="card-text">A powerful language for systems, games, and applications.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card language-card" onclick="showDetails('HTML & CSS')">
+                <img onClick="location.href='./pages/html&cssPage.html'" img src="./images/html&CSS.webp" class="card-img-top" alt="HTML & CSS">
+                <div class="card-body">
+                  <h5 class="card-title">HTML & CSS</h5>
+                  <p class="card-text">The building blocks of web design and structure.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer mt-5">
+          <p>@SLP Blog Vibes</p>
+          <p><a href="#" class="text-white">Fhatutshedzani Makwarela</a></p>
+        </footer>
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
